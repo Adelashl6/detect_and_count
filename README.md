@@ -1,5 +1,6 @@
 # detect_and_count
-The codes are based on keypoints-based anchor-free detection framework
+The codes are about keypoints-based anchor-free detection framework. Beside the three branches for predicting the center, scale, and36
+offset properties of the pedestrian in the image, we introduce another branch for regressing the pedestrian density and carefully design a regression loss guiding the training of model more robust to the crowd occlusion. Also we introduce a metric based on head counting to measure the robustness of our model to occulusion.
 
 ## Requirement
 * Python 3.6
@@ -37,6 +38,8 @@ You should download the dataset from [here](https://www.cityscapes-dataset.com/d
 		*anno_val.mat
 		...
 ```
+2. Wideface Dataset
+3. Crowd HUman Dataset
 
 
 2. Pretrained Models

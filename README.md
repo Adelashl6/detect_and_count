@@ -1,5 +1,5 @@
 # detect_and_count
-The codes are about keypoints-based anchor-free detection framework. Beside the three branches for predicting the center, scale, and36
+The codes are about keypoints-based anchor-free detection framework. Beside the three branches for predicting the center, scale, and
 offset properties of the pedestrian in the image, we introduce another branch for regressing the pedestrian density and carefully design a regression loss guiding the training of model more robust to the crowd occlusion. Also we introduce a metric based on head counting to measure the robustness of our model to occulusion.
 
 ## Requirement

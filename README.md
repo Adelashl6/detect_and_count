@@ -38,10 +38,6 @@ You should download the dataset from [here](https://www.cityscapes-dataset.com/d
 		*anno_val.mat
 		...
 ```
-2. Wideface Dataset
-3. Crowd HUman Dataset
-
-
 2. Pretrained Models
 
 The backbone of our ACSP is modified ResNet-101, i.e. replacing all BN layers with SN layers. You can download the pretrained model from [here](https://pan.baidu.com/s/1rK-ukAjEIPql2ECi38hRbQ). It is provided by the author of [Switchable Normalization](https://github.com/switchablenorms/Switchable-Normalization). The weights will be stored in `./models/`.

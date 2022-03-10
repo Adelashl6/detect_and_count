@@ -14,8 +14,8 @@ offset properties of the pedestrian in the image, we introduce another branch fo
 
 
 
-## Preparation
-1. CityPersons Dataset
+## Dataset
+CityPersons Dataset
 
 You should download the dataset from [here](https://www.cityscapes-dataset.com/downloads/). From that link, leftImg8bit_trainvaltest.zip (11GB) is used. We use the training set(2975 images) for training and the validation set(500 images) for test. The data should be stored in `./data/citypersons/images`. Annotations have already prepared for you. And the directory structure will be 
 ```
@@ -38,9 +38,8 @@ You should download the dataset from [here](https://www.cityscapes-dataset.com/d
 		*anno_val.mat
 		...
 
-
-
-2. Performance of our model
+```
+## Performance
 
 R: 9.90%, HO:41.94%, R+HO: 24.64%
 MAE: [Total: 12.10], [Num <= 10: 15.03], [10 < Num <= 30: 8.40], [Num >= 30: 5.04]
@@ -49,12 +48,12 @@ MAE: [Total: 12.10], [Num <= 10: 15.03], [10 < Num <= 30: 8.40], [Num >= 30: 5.0
 
 They should be stored in `./models/`.
 
-3. Compile Libraries
+## Compile Libraries
 
 Before running the codes, you must compile the libraries. The followings should be accomplished in terminal. If you are not sure about what it means, click [here](https://linuxize.com/post/linux-cd-command/) may be helpful.
 
 ```
-cd util
+cd opr
 make all
 ```
 

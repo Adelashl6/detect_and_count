@@ -38,6 +38,7 @@ You should download the dataset from [here](https://www.cityscapes-dataset.com/d
 		*anno_val.mat
 		...
 
+
 2. Our Trained Models
 
 R: 9.90%, HO:41.94%, R+HO: 24.64%
@@ -46,7 +47,7 @@ R: 9.90%, HO:41.94%, R+HO: 24.64%
 
 They should be stored in `./models/`.
 
-4. Compile Libraries
+3. Compile Libraries
 
 Before running the codes, you must compile the libraries. The followings should be accomplished in terminal. If you are not sure about what it means, click [here](https://linuxize.com/post/linux-cd-command/) may be helpful.
 

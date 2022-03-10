@@ -40,9 +40,10 @@ You should download the dataset from [here](https://www.cityscapes-dataset.com/d
 
 
 
-2. Our Trained Models
+2. Performance of our model
 
 R: 9.90%, HO:41.94%, R+HO: 24.64%
+MAE: [Total: 12.10], [Num <= 10: 15.03], [10 < Num <= 30: 8.40], [Num >= 30: 5.04]
 
 
 
